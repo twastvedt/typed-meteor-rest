@@ -3,8 +3,8 @@ declare module "meteor/meteor" {
 
   export module Meteor {
     function publish(name: string, func: Function, options: {
-		url?: string,
-		httpMethod?: 'get' | 'head' | 'post' | 'put' | 'delete' | 'trace' | 'options' | 'connect' | 'patch'
-	}): void;
+      url?: string,
+      httpMethod?: 'get' | 'head' | 'post' | 'put' | 'delete' | 'trace' | 'options' | 'connect' | 'patch'
+    }): void;
   }
 }
