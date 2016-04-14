@@ -1,0 +1,15 @@
+{
+  "name": "meteor-rest",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/stubailo/meteor-rest",
+  "version": "",
+  "devDependencies": {
+    "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
+  },
+  "ambientDevDependencies": {
+    "node": "registry:dt/node#4.0.0+20160319033040"
+  },
+  "ambientDependencies": {
+    "meteor": "https://gist.githubusercontent.com/tomitrescak/8366ce98f1857e202ea8/raw/4c8850ad8174de2662f92c87328280838e0ab5fd/meteor.d.ts"
+  }
+}
