@@ -8,7 +8,7 @@ declare module "meteor/meteor" {
   }
 
   export module Meteor {
-    function publish(name: string, func: Function, options: Options): void;
-    function method(name: string, func: Function, options: Options): void;
+    function publish(name: string, func: Function, options?: Options): void;
+    function method(name: string, func: Function, options?: Options): void;
   }
 }
